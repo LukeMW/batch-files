@@ -1,4 +1,5 @@
 @echo off
+title Password Creator
 :start
 cls
 echo -create (create password)
