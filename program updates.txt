@@ -1,0 +1,3 @@
+fixed password protected menu option bug
+removed test menu option
+added ping tool

@@ -1,0 +1,260 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sat Jan 17 20:19:28 2015
+
+   Source : C:\Users\Luke\Music\
+     Dest : F:\luke's stuff\Music\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	C:\Users\Luke\Music\
+	                   3	C:\Users\Luke\Music\[Yuzo Koshiro]\
+	                  26	C:\Users\Luke\Music\[Yuzo Koshiro]\[1990] - Streets of Rage\
+	                  36	C:\Users\Luke\Music\[Yuzo Koshiro]\[1993] - Streets of Rage II\
+	                   1	C:\Users\Luke\Music\A Covenant of Thorns\
+	                  13	C:\Users\Luke\Music\A Covenant of Thorns\Hallowed & Hollow (2010 Remastered Version)\
+	                  17	C:\Users\Luke\Music\A Covenant of Thorns\If the Heavens Should Fall\
+	                  25	C:\Users\Luke\Music\christmas songs\
+	  *EXTRA File 		   4.6 m	Santa Baby - Kylie Minogue-[www_flvto_com].mp3
+	  *EXTRA File 		   3.7 m	The Christmas Song - Nat King Cole.mp3
+	                   1	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\
+	                  15	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1989] Pretty Hate Machine\
+	                  15	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1992] Broken\
+	                   6	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1992] Fixed\
+	                  21	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1994] The Downward Spiral\
+	                  24	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1994] The Downward Spiral (Second Disc)\
+	                  11	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1995] Further Down The Spiral\
+	                  32	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1996] Natural Born Killers (Soundtrack)\
+	                  10	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1996] Quake (Soundtrack)\
+	                  23	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1997] Lost Highway (Soundtrack)\
+	                   1	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1999] The Fragile\
+	                  19	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1999] The Fragile\Left\
+	                  18	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[1999] The Fragile\Right\
+	                  10	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[2000] Things Falling Apart\
+	                  16	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[2002] And All That Could Have Been (Live)\
+	                   9	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[2002] And All That Could Have Been (Still)\
+	                  19	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[2005] With Teeth\
+	                  16	C:\Users\Luke\Music\COMPLETE Nine Inch Nails Collection 320kbps MP3 [1989 - 2007]\[2007] Year Zero\
+	                  45	C:\Users\Luke\Music\Conan The Barbarian (Complete Score) - Basil Poledouris - 1982\
+	                  31	C:\Users\Luke\Music\Daft Punk - Tron Legacy OST [2010-MP3-Cov][Bubanee]\
+	                  20	C:\Users\Luke\Music\Daft Punk - Tron Legacy Reconfigured (2011)\
+	                  49	C:\Users\Luke\Music\Deadly Premonition\
+	                   0	C:\Users\Luke\Music\Disturbed Discography\
+	                  14	C:\Users\Luke\Music\Disturbed Discography\2002 - Believe\
+	                  14	C:\Users\Luke\Music\Disturbed Discography\2005 - Ten Thousand Fists\
+	                  12	C:\Users\Luke\Music\Disturbed Discography\2007 - Indestructible\
+	                  15	C:\Users\Luke\Music\Disturbed Discography\2010 - Asylum\
+	                  14	C:\Users\Luke\Music\Disturbed Discography\2010 -The Sickness (10th Anniversary Edition)\
+	                  26	C:\Users\Luke\Music\Drive - Soundtrack (2011)\
+	                  27	C:\Users\Luke\Music\Far Cry 3 - Blood Dragon Original Soundtrack (2013) [MP3, 320 kbps]\
+	                   1	C:\Users\Luke\Music\Far Cry 3 - Blood Dragon Original Soundtrack (2013) [MP3, 320 kbps]\Scans\
+	                   0	C:\Users\Luke\Music\Final.Fantasy.VII.Official.Soundtrack[mp3.128KBs]\
+	                  30	C:\Users\Luke\Music\Final.Fantasy.VII.Official.Soundtrack[mp3.128KBs]\CD1\
+	                  28	C:\Users\Luke\Music\Final.Fantasy.VII.Official.Soundtrack[mp3.128KBs]\CD2\
+	                  28	C:\Users\Luke\Music\Final.Fantasy.VII.Official.Soundtrack[mp3.128KBs]\CD3\
+	                  23	C:\Users\Luke\Music\Final.Fantasy.VII.Official.Soundtrack[mp3.128KBs]\CD4\
+	                   1	C:\Users\Luke\Music\Godsmack - Discography\
+	                  17	C:\Users\Luke\Music\Godsmack - Discography\1998 - Godsmack\
+	                  16	C:\Users\Luke\Music\Godsmack - Discography\2000 - Awake\
+	                  17	C:\Users\Luke\Music\Godsmack - Discography\2003 - Faceless\
+	                   7	C:\Users\Luke\Music\Godsmack - Discography\2004 - The Other Side\
+	                  16	C:\Users\Luke\Music\Godsmack - Discography\2006 - Godsmack IV\
+	                   2	C:\Users\Luke\Music\Godsmack - Discography\2006 - Godsmack IV\Bonus CD\
+	                  21	C:\Users\Luke\Music\Godsmack - Discography\2007 - Good Times, Bad Times...Ten Years of Godsmack\
+	                  17	C:\Users\Luke\Music\Godsmack - Discography\2010 - The Oracle\
+	                   0	C:\Users\Luke\Music\Godsmack - Discography\Artwork\
+	                   3	C:\Users\Luke\Music\Godsmack - Discography\Artwork\1998 - Godsmack\
+	                   3	C:\Users\Luke\Music\Godsmack - Discography\Artwork\2000 - Awake\
+	                   3	C:\Users\Luke\Music\Godsmack - Discography\Artwork\2003 -  Faceless\
+	                   3	C:\Users\Luke\Music\Godsmack - Discography\Artwork\2004 - The Other Side\
+	                   3	C:\Users\Luke\Music\Godsmack - Discography\Artwork\2006 - IV\
+	                   4	C:\Users\Luke\Music\Godsmack - Discography\Artwork\2007 - Good Times, Bad Times ...Ten Years of Godsmack\
+	                   1	C:\Users\Luke\Music\Godsmack - Discography\Artwork\2010 - The Oracle\
+	                  33	C:\Users\Luke\Music\Godsmack - Discography\Artwork\Godsmack\
+	                  50	C:\Users\Luke\Music\Godsmack - Discography\Artwork\Godsmack\Sully Erna\
+	                  17	C:\Users\Luke\Music\Labyrinth - Motion Picture Soundtrack (ksbnet)\
+	                   0	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\
+	                   4	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica ED Single - Magia (Anime Cover Version)\
+	                   5	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica ED Single - Magia (Anime Cover Version)\Scans\
+	                   4	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica OP Single - Connect (Limited Anime Edition)\
+	                   6	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica OP Single - Connect (Limited Anime Edition)\Scans\
+	                   3	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 1 - Memories of you\
+	                  12	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 1 - Memories of you\Scans\
+	                  13	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 2 - Original Soundtrack I\
+	                  13	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 2 - Original Soundtrack I\Scans\
+	                   1	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 3 - Sunny Day Life\
+	                  12	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 3 - Sunny Day Life\Scans\
+	                  12	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 4 - Original Soundtrack II\
+	                  15	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 4 - Original Soundtrack II\Scans\
+	                   3	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 5 - Farewell Story\
+	                  12	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 5 - Farewell Story\Scans\
+	                  15	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 6 - Original Soundtrack III\
+	                   9	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special CD 6 - Original Soundtrack III\Scans\
+	                   1	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special Talk CD - Mahou Shoujo-tachi no Ochakai\
+	                   1	C:\Users\Luke\Music\Mahou Shoujo Madoka Magica Music Collection [MP3]\Mahou Shoujo Madoka Magica Special Talk CD - Mahou Shoujo-tachi no Ochakai\Scans\
+	                   6	C:\Users\Luke\Music\MusicBee\
+	                  13	C:\Users\Luke\Music\MusicBee\Playlists\
+	                   1	C:\Users\Luke\Music\MusicBee\Podcasts\
+	                  17	C:\Users\Luke\Music\Nine Inch Nails - Pretty Hate Machine [Remastered] (2010) 320 vtwin88cube\
+	                  17	C:\Users\Luke\Music\Paprika Original Soundtrack\
+	                   4	C:\Users\Luke\Music\Predator [Soundtrack]\
+	                  34	C:\Users\Luke\Music\Predator [Soundtrack]\Predator (1987) - Soundtrack\
+	                  46	C:\Users\Luke\Music\primordia_soundtrack\
+	                 466	C:\Users\Luke\Music\Saved\
+	                   1	C:\Users\Luke\Music\sound of nature\
+	                  12	C:\Users\Luke\Music\sound of nature\creatures\
+	                   8	C:\Users\Luke\Music\sound of nature\ocean\
+	                  13	C:\Users\Luke\Music\sound of nature\rain\
+	                   3	C:\Users\Luke\Music\sound of nature\rainforest\
+	                   3	C:\Users\Luke\Music\sound of nature\river\
+	                  21	C:\Users\Luke\Music\Streets of Rage 2 OST\
+	                 105	C:\Users\Luke\Music\The Instant Classical Collection\
+	                  37	C:\Users\Luke\Music\To the Moon OST\
+	                   1	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 1 - 1685-1730\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 10 - 1894-1928\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 2 - 1731-1775\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 3 - 1776-1787\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 4 - 1788-1810\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 5 - 1811-1841\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 6 - 1842-1853\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 7 - 1854-1866\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 8 - 1867-1876\
+	                  11	C:\Users\Luke\Music\Top 100 Masterpieces of Classical Music 1685-1928\Disc 9 - 1877-1893\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       112         0       112         0         0         0
+   Files :      2058         0      2058         0         0         2
+   Bytes :  10.138 g         0  10.138 g         0         0    8.45 m
+   Times :   0:00:05   0:00:00                       0:00:00   0:00:05
+
+   Ended : Sat Jan 17 20:19:33 2015
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sat Jan 17 20:19:33 2015
+
+   Source : C:\Users\Luke\Videos\Movies\
+     Dest : F:\luke's stuff\Movies\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	C:\Users\Luke\Videos\Movies\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\HOUSE ON HAUNTED HILL [1999-Eng-DVDrip]-haSak\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\Inception[2010]DvDrip[Eng]-FXG\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\Indiana Jones Trillogy\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\Limitless   {2011} DVDRIP. Jaybob\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\Looper 2012 DVDRip AC3 XViD-RemixHD\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\Made in Dagenham[2010]DvDrip[Eng]-FXG\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\Micro Men\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\National.Treasure.2-Book.Of.Secrets[2007]DvDrip[Eng]-aXXo\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\Pushing Tin\
+	*EXTRA Dir        -1	F:\luke's stuff\Movies\Wall Street\
+	  *EXTRA File 		 278.8 m	BBC PLAY FOR TODAY- 'NUTS IN MAY'(360p_H.264-AAC).mp4
+	  *EXTRA File 		 700.0 m	East.Is.East[Eng]Dvdrip.Dino.avi
+	  *EXTRA File 		 937.0 m	LEGEND (1985) U.S. THEATRICAL VERSION.mkv
+	  *EXTRA File 		 739.3 m	Watership Down.avi
+	    New File  		 900.2 m	Master.and.Commander.The.Far.Side.of.the.World.2003.720p.BrRip.x264.YIFY.mp4
+	                   3	C:\Users\Luke\Videos\Movies\Contact\
+	                   3	C:\Users\Luke\Videos\Movies\Dances With Wolves (1990) (limited Eng subs, Directors Cut)\
+	                   3	C:\Users\Luke\Videos\Movies\Dredd (2012)\
+	                   8	C:\Users\Luke\Videos\Movies\Elysium (2013) DVDRip XviD-MAXSPEED\
+	                   8	C:\Users\Luke\Videos\Movies\Final Destination 5 (2011) DVDRip XviD-MAXSPEED\
+	                   2	C:\Users\Luke\Videos\Movies\Only Lovers Left Alive 2013 720p BluRay 900MB-Micromkv\
+	                   3	C:\Users\Luke\Videos\Movies\Stephen King - Sleepwalkers\
+	                   4	C:\Users\Luke\Videos\Movies\The Bourne Identity[2002]DvDrip AC3[Eng]-FXG\
+	                   6	C:\Users\Luke\Videos\Movies\The.Money.Pit[1986]DVDrip--rEACTOr--\
+	                   3	C:\Users\Luke\Videos\Movies\The.Purge.2013.WEBRip XViD juggs\
+	                   4	C:\Users\Luke\Videos\Movies\The.Raid.2.2014.BDRip.x264-GECKOS[rarbg]\
+	                   1	C:\Users\Luke\Videos\Movies\The.Raid.2.2014.BDRip.x264-GECKOS[rarbg]\Subs\
+	                   2	C:\Users\Luke\Videos\Movies\Wolf Children 2012 DVDRip ENG H264-BONE\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        14         0        14         0         0        10
+   Files :        66         1        65         0         0         4
+   Bytes :  28.418 g  900.29 m  27.539 g         0         0   2.593 g
+   Times :   0:00:49   0:00:49                       0:00:00   0:00:00
+
+
+   Speed :            19014447 Bytes/sec.
+   Speed :            1088.015 MegaBytes/min.
+
+   Ended : Sat Jan 17 20:20:23 2015
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sat Jan 17 20:20:23 2015
+
+   Source : C:\Users\Luke\Videos\TV Shows\
+     Dest : F:\luke's stuff\TV Shows\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\Luke\Videos\TV Shows\
+	*EXTRA Dir        -1	F:\luke's stuff\TV Shows\Sugar Rush Complete\
+	                  14	C:\Users\Luke\Videos\TV Shows\Derek Series 1\
+	                  14	C:\Users\Luke\Videos\TV Shows\Game of Thrones - The Complete Season 2 [HDTV] + EXTRA\
+	                  11	C:\Users\Luke\Videos\TV Shows\Game of Thrones - The Complete Season 3 [HDTV]\
+	                  10	C:\Users\Luke\Videos\TV Shows\Game of Thrones - The Complete Season 4\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         5         0         5         0         0         1
+   Files :        49         0        49         0         0         0
+   Bytes :  14.877 g         0  14.877 g         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+   Ended : Sat Jan 17 20:20:24 2015
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sat Jan 17 20:20:24 2015
+
+   Source : C:\Users\Luke\Videos\Batsu Games\
+     Dest : F:\luke's stuff\Batsu Games\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  15	C:\Users\Luke\Videos\Batsu Games\
+	                   2	C:\Users\Luke\Videos\Batsu Games\Defence Force Batsu\
+	                   2	C:\Users\Luke\Videos\Batsu Games\Teachers Batsu\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         0         3         0         0         0
+   Files :        19         0        19         0         0         0
+   Bytes :  30.992 g         0  30.992 g         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+   Ended : Sat Jan 17 20:20:24 2015

@@ -1,0 +1,3 @@
+Version 0.1 [26 July 2012]
+Started initial coding
+Added tutorial and starting information

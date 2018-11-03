@@ -1,0 +1,9 @@
+WAY OF CONCLEALING ITEMS UNTIL EXAMINED
+------------------------
+The wristwatch is a wearable thing.
+Understand "watch" as the wristwatch.
+
+A dingy nightstand is a scenery supporter in the bedroom. The description of the nightstand is "A plywood nightstand that you vaguely remember buying for five bucks off the Internet. Nothing terribly interesting.[first time][paragraph break]Just as you're about to turn away, you notice the wristwatch you've been looking for all month. So that's where it went![only]".
+
+After examining the nightstand for the first time: now the wristwatch is on the nightstand.
+------------------------

@@ -1,0 +1,236 @@
+POSSIBLE GAME STRUCTURE
+
+@echo off
+@title [GAME NAME]
+ 
+:plot
+echo [first line of story here]
+echo [second line]
+echo [and so on...]
+ 
+:1st_problem
+echo [problem]
+echo [option 1]
+echo [option 2]
+echo [option 3]
+SET /P "problem1=[Your choice here]"
+If "%problem1%" == "1" then exit
+If "%problem1%" == "2" then goto plot2
+ELSE goto 1st_selection
+ 
+cls
+ 
+:plot2
+echo [first line of story here]
+echo [second line]
+echo [and so on...]
+
+POSSIBLE SAVE SYSTEM
+
+@ECHO OFF
+TITLE Game
+MODE CON: COLS=65 LINES=15
+COLOR 02
+
+:Menu
+
+ECHO.
+ECHO			 ษอออออออออออออออป
+ECHO			 บ   Main Menu  	บ
+ECHO			 ฬอออออออออออออออน
+ECHO			 บ1. New Game	 บ
+ECHO			 บ		 บ
+ECHO			 บ2. Load Game	 บ
+ECHO			 บ		 บ
+ECHO			 บ3. Exit     	 บ
+ECHO			 ศอออออออออออออออผ
+ECHO.
+ECHO.
+ECHO What would you like to do? [1, 2, or 3]
+SET /p menu=""
+IF "%menu%"=="1" GOTO NewGame
+IF "%menu%"=="2" GOTO LoadGame
+IF "%menu%"=="3" EXIT
+
+:NewGame
+
+CLS
+IF EXIST CurrentLevel.txt DEL CurrentLevel.txt
+IF EXIST Name.txt DEL Name.txt
+ECHO Starting new game . . .
+ECHO.
+ECHO Note: When you quit, you will have to start your
+ECHO current level over next time you load.
+ECHO.
+PAUSE
+GOTO Start
+
+:LoadGame
+
+CLS
+IF NOT EXIST CurrentLevel.txt ECHO No saved game detected.
+IF NOT EXIST CurrentLevel.txt ECHO.
+IF NOT EXIST CurrentLevel.txt PAUSE
+IF NOT EXIST CurrentLevel.txt GOTO MENU
+SET /p name= <Name.txt
+SET /p GAMESTATECODE= <CurrentLevel.txt
+ECHO Loading Game . . .
+ECHO.
+ECHO NOTE: You will have to start your current mission over.
+ECHO.
+PAUSE
+IF "%GAMESTATECODE%"=="%GAMESTATECODE%" GOTO %GAMESTATECODE%
+CLS
+ECHO Unknown Level Code
+ECHO.
+PAUSE
+GOTO Menu
+
+:Start
+
+CLS
+ECHO "Welcome, you must be the new recruit."
+ECHO.
+ECHO "What is your name?"
+SET /p name=""
+ECHO %name%>Name.txt
+CLS
+
+:Mission1Start
+
+ECHO Mission1Start>CurrentLevel.txt
+
+ECHO "Welcome %name%,"
+ECHO.
+ECHO "Are you ready for your first mission?" Yes/No
+SET /p ready=""
+IF "%ready%"=="Yes" GOTO Level1
+IF "%ready%"=="yes" GOTO Level1
+IF "%ready%"=="No" GOTO RespNo
+IF "%ready%"=="no" GOTO RespNo
+CLS
+ECHO Unknown Command
+ECHO.
+PAUSE
+CLS
+GOTO Mission1Start
+
+
+for /f %%a in (file.dat) do if %game%==%%a goto %%a
+
+POSSIBLE INVENTORY SYSTEM
+
+@echo off 
+
+:start
+echo You wake up in a dimly lit room. You see an open door ahead.
+
+set /p input=COMMAND?
+if %input%==walk door 
+
+
+:room1
+
+echo . > inventory.txt
+echo You walk into the room and see the following item(s) Woodpost, Glass Shards > room1.txt
+
+type room1.txt
+
+set /p input=COMMAND?
+if %input%==take post 
+echo Woodpost >> inventory.txt 
+echo You take the post
+goto room1
+
+if %input%==take shards
+echo Shards >> inventory.txt 
+echo You take the shards
+
+pause
+
+@echo off
+
+:first
+if not exist "%userprofile%\Desktop\Adventure Game" (goto next) else (goto start)
+
+:next
+mkdir "%userprofile%\desktop\Adventure Game"
+goto start
+
+:start
+echo You wake up in dimly lit room. You see a door ahead.
+ping -n 2 1.1.1.1 > nul
+echo.
+echo 1) Go through the door?
+echo 2) Stay put?
+echo.
+set /p Choice=Choose Now: 
+if "%Choice%"=="1" goto room1
+if "%Choice%"=="2" goto start
+
+:room1
+cls
+echo You walk into the room and see the following item(s): 
+echo.
+echo 1) Woodpost
+echo 2) Glass Shards
+echo.
+set /p item=Pick an item: 
+if "%item%"=="1" echo Woodpost >> "%userprofile%\desktop\Adventure Game\Inventory.txt"
+if "%item%"=="2" echo Glass Shards >> "%userprofile%\desktop\Adventure Game\Inventory.txt"
+goto (then just keep the code going)
+
+@echo off
+setlocal enabledelayedexpansion
+:first
+if not exist "%userprofile%\Desktop\Adventure Game" (goto next) else (goto start)
+:next
+mkdir "%userprofile%\desktop\Adventure Game"
+goto start
+:start
+echo You wake up in dimly lit room. You see a door ahead.
+ping -n 2 1.1.1.1 > nul
+echo.
+echo 1) Go through the door?
+echo 2) Stay put?
+echo.
+set /p Choice=Choose Now: 
+if "%Choice%"=="1" goto room1
+if "%Choice%"=="2" goto start
+:room1
+cls
+echo You walk into the room and notice you are beneath a hole in the ceiling. You see the following item(s): 
+echo.
+echo 1) Woodpost
+echo 2) Glass Shards
+echo 3) Rope tied to hook
+echo.
+set /p item=Pick an item: 
+if "%item%"=="1" echo Woodpost >> "%userprofile%\desktop\Adventure Game\Inventory.txt"
+if "%item%"=="2" echo Glass Shards >> "%userprofile%\desktop\Adventure Game\Inventory.txt"
+if "%item%"=="3" echo Rope Tied To Hook >> "%userprofile%\desktop\Adventure Game\Inventory.txt"
+echo 1) Check inventory
+echo 2) Go back out the door
+set /p choice=Select an action:
+if "%choice%"=="1" goto inventorycheck
+:inventorycheck
+set num=1
+for /f (tokens=*) %%a in ""%userprofile%\desktop\Adventure Game\Inventory.txt" 
+echo !num! %%a
+set num=!num!+1
+set /p choice=Select an item to learn more about it:
+if "%choice%"=="1" goto inv1
+if "%choice%"=="2" goto inv2
+if "%choice%"=="3" goto inv3
+:inv1
+
+some stuff...
+
+:inv2
+
+some stuff...
+
+:inv3
+
+Echo The item Rope Tied To Hook looks like it could help someone cimb out of something...
+
